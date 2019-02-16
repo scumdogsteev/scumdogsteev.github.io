@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Steve Myles > Lognormality > iframeify</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Steve Myles, some guy from Texas">
+    <meta name="author" content="Steve Myles">
+    <link rel="canonical" href="https://s.mylesandmyles.info/blog/2019/02/11/iframeify/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+	<link rel="icon" type="image/png" href="https://s.mylesandmyles.info/img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="https://s.mylesandmyles.info/img/favicon-16x16.png" sizes="16x16" />
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Google verification -->
+    <meta name="google-site-verification" content="v249ifvo2RPEG6ai3LJgSAG7PRDntewxOW37aBgrhZY">
+
+    <!-- Bing Verification -->
+    
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-15892472-10', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+    <body id="page-top" class="index">
+       <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="https://s.mylesandmyles.info/#page-top">Steve Myles</a>
+				
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+                    
+					<li class="hidden">
+                        <a href="https://s.mylesandmyles.info/#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="https://s.mylesandmyles.info/#about">About</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="https://s.mylesandmyles.info/#experience">Experience</a>
+                    </li>					
+                    <li class="page-scroll">
+                        <a href="https://s.mylesandmyles.info/#projects">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="https://s.mylesandmyles.info/#talks">Talks</a>
+                    </li>
+					
+                    <li class="page-scroll">
+                        <a href="/blog/" style="background-color:#57565e;">Blog</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="https://steve.mylesandmyles.info/">Tumblr</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+		<section id="post">
+        <div class="container">
+		<br /><br /><br /><br /><br />
+		<div class="row">
+            <div class="col-lg-12">
+				<h2><a style="color:#39383d;" href="https://s.mylesandmyles.info/blog/">Lognormality</a></h2>
+                <hr class="star-primary">
+				<p align="center"><a href="https://s.mylesandmyles.info/blog/archive/">Archive</a></p>
+			</div>
+		</div>
+
+		<br /><br />
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>iframeify</h3>
+                    <hr class="star-primary">
+                    <p align="center">
+						11 February 2019  | <a href="https://s.mylesandmyles.info//blog/2019/02/11/iframeify/#disqus_thread" data-disqus-identifier="" class="page-scroll"></a> | 
+						categories: <a href="https://s.mylesandmyles.info/blog/rstats/">rstats</a>
+					</p>
+                </div>
+                </div>
+			<div class="row">
+                <div class="col-lg-12">
+					<br />
+					
+					<br />
+					<p><strong>Navigate:</strong>  [ <a href="#background">background</a> ] | [ <a href="#solution">solution</a> ] | [ <a href="#script">script</a> ] | [ <a href="https://s.mylesandmyles.info/iframeify/">site</a> ]</p>
+
+<hr />
+
+<p><em>There’s probably an easier way to do this, but it was fun to figure this out.</em></p>
+
+<p><a id="background"></a>
+-[ <strong>background</strong> ]-</p>
+
+<p><a href="https://www.mylesandmyles.info/">The running site I share with my wife</a> is hosted on <a href="https://tumblr.com/">tumblr</a>.  We have <a href="https://www.mylesandmyles.info/race-results/">a page</a> where we track our race results, as well as our upcoming races.</p>
+
+<p><img src="https://s.mylesandmyles.info/img/2019-02-11-tumblr-iframe-markdown/races.jpg" class="img-responsive" alt="Races page" width="500" /></p>
+<p style="text-align: center;font-size: small;"><em>Our "<a href="https://www.mylesandmyles.info/race-results/">Races</a>" page</em></p>
+
+<p><a id="solution"></a>
+-[ <strong>solution</strong> ]-</p>
+
+<p>I used to manually update that page, editing the html when we finished a race or adding new races to the “Future” list.  This was really time consuming, so I recently rebuilt the file in markdown and used <a href="https://yihui.name/knitr/">knitr</a> to convert it to html, which I then copied/pasted into the page on tumblr.</p>
+
+<p><img src="https://s.mylesandmyles.info/img/2019-02-11-tumblr-iframe-markdown/markdown_file.jpg" class="img-responsive" alt="markdown file" width="500" /></p>
+<p style="text-align: center;font-size: small;"><em>The top of the markdown file.  Note the markdown table.</em></p>
+
+<p>I don’t know why, but tumblr did not like the table that I had produced via knitting the markdown file.  It would only display a blank page so, instead of trying to get tumblr to show it correctly, I figured I would create the html file and embed it in an <a href="https://www.w3schools.com/tags/tag_iframe.asp">iframe</a>.</p>
+
+<p>This led to some initial issues, mostly due to not really knowing how to use iframes.  Some quick
+Googling helped me with the basics and I figured out the appropriate size (650x500 seems good for my tumblr theme).</p>
+
+<p><a id="iframe-html"></a></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>
+    <span class="nt">&lt;iframe</span> <span class="na">class=</span><span class="s">"frame-area"</span> <span class="na">frameborder=</span><span class="s">"0"</span> <span class="na">height=</span><span class="s">"650"</span> <span class="na">name=</span><span class="s">"race-results"</span> <span class="na">scrolling=</span><span class="s">"auto"</span> 
+    <span class="na">src=</span><span class="s">"https://s.mylesandmyles.info/iframeify/races.html"</span> <span class="na">width=</span><span class="s">"500"</span><span class="nt">&gt;</span> <span class="nt">&lt;/iframe&gt;</span>
+<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>That worked, but there were three issues:</p>
+
+<ol>
+  <li>the <code class="highlighter-rouge">title</code> of the output html file was “Future” (which makes sense as that’s the first word in the source markdown file, but it’s not what I wanted since <a href="https://s.mylesandmyles.info/iframeify/races.html">the file is viewable outside of the iframe</a>)</li>
+  <li>the style of the text in the iframe didn’t match the parent page</li>
+  <li>clicking any of the links opened them in the iframe instead of in the parent window</li>
+</ol>
+
+<p><img src="https://s.mylesandmyles.info/img/2019-02-11-tumblr-iframe-markdown/link_in_iframe.jpg" class="img-responsive" alt="link opened in iframe" width="500" /></p>
+<p style="text-align: center;font-size: small;"><em>Clicking a link at first opened it in the iframe</em></p>
+
+<p>To rectify these, I wrote <a href="https://github.com/scumdogsteev/iframeify/blob/master/iframeify.R">a simple R script</a> to better prepare the markdown file to be embedded in a tumblr page via iframe.  The script:</p>
+
+<ol>
+  <li>changes the title of the output page to the name of the source file (“races” in this case)</li>
+  <li>updates the style to match this tumblr</li>
+  <li>adds <code class="highlighter-rouge">target="_parent"</code> to all <code class="highlighter-rouge">&lt;a href="xxxxxx"&gt;</code> tags to open links in the parent window</li>
+</ol>
+
+<p>For #2, I copied/pasted the links to the tumblr theme’s CSS into <a href="https://github.com/scumdogsteev/iframeify/blob/master/styles.txt">styles.txt</a> and added some custom CSS for the table to <a href="https://github.com/scumdogsteev/iframeify/blob/master/styles.css">styles.css</a>. These could be adjusted if necessary to work with different themes.</p>
+
+<p>This script is set up to take the filename as an input in case I ever want to use this for something other than this specific page.</p>
+
+<p>The output html file is then ready to be committed to a GitHub repository that is set up to serve <a href="https://pages.github.com/">GitHub Pages</a>. Once committed, it is served in an iframe on <a href="https://www.mylesandmyles.info/race-results/">the tumblr page</a> via <a href="#iframe-html">the above html</a>.</p>
+
+<p><img src="https://s.mylesandmyles.info/img/2019-02-11-tumblr-iframe-markdown/gh-pages.jpg" class="img-responsive" alt="GitHub Pages" width="500" /></p>
+<p style="text-align: center;font-size: small;"><em>Repo settings to enable GitHub pages (https is optional)</em></p>
+
+<p>This script, called <a href="https://github.com/scumdogsteev/iframeify">iframeify</a>, could be used for <a href="https://rmarkdown.rstudio.com/">RMarkdown</a> files as well.</p>
+
+<p><a id="script"></a>
+-[ <strong><a href="https://github.com/scumdogsteev/iframeify/blob/master/iframeify.R">script</a></strong> ]-</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">## iframeify.R</span><span class="w">
+</span><span class="c1">## by Steve Myles / https://s.mylesandmyles.info/</span><span class="w">
+</span><span class="c1">## 10 February 2019</span><span class="w">
+</span><span class="c1">##</span><span class="w">
+</span><span class="c1">## converts a markdown file into an iframe-able html file for embedding in</span><span class="w">
+</span><span class="c1">## another site such as tumblr</span><span class="w">
+
+</span><span class="n">iframeify</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="n">stylesheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"styles.css"</span><span class="p">,</span><span class="w"> </span><span class="n">styles</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"styles.txt"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">require</span><span class="p">(</span><span class="n">knitr</span><span class="p">)</span><span class="w">
+    </span><span class="n">require</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span><span class="w">
+
+    </span><span class="c1">## add markdown and html extensions to filename</span><span class="w">
+    </span><span class="n">md_filename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste0</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="s2">".md"</span><span class="p">)</span><span class="w">
+    </span><span class="n">html_filename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste0</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="s2">".html"</span><span class="p">)</span><span class="w">
+
+    </span><span class="c1">## check whether stylesheet exists; if not, set to blank</span><span class="w">
+    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">file.exists</span><span class="p">(</span><span class="n">stylesheet</span><span class="p">))</span><span class="w">
+      </span><span class="n">stylesheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">""</span><span class="w">
+
+    </span><span class="c1">## knit</span><span class="w">
+    </span><span class="n">knit2html</span><span class="p">(</span><span class="n">md_filename</span><span class="p">,</span><span class="w"> </span><span class="n">html_filename</span><span class="p">,</span><span class="w"> </span><span class="n">stylesheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">stylesheet</span><span class="p">)</span><span class="w">
+
+    </span><span class="c1">## read the html and styles files into memory; if styles does not exist,</span><span class="w">
+    </span><span class="c1">## replace it with opening html &lt;style&gt; tag</span><span class="w">
+    </span><span class="n">html</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">readLines</span><span class="p">(</span><span class="n">html_filename</span><span class="p">)</span><span class="w">
+    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">file.exists</span><span class="p">(</span><span class="n">styles</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="n">styles</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste</span><span class="p">(</span><span class="n">readLines</span><span class="p">(</span><span class="n">styles</span><span class="p">),</span><span class="w"> </span><span class="n">collapse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"\n"</span><span class="p">)</span><span class="w">
+    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="n">styles</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'&lt;style type="text/css"&gt;'</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+
+    </span><span class="c1">## replace the title, add the styles, and add 'target="_parent"' to html tags</span><span class="w">
+    </span><span class="n">html</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">html</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+        </span><span class="n">str_c</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+        </span><span class="n">str_replace_all</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s1">'&lt;title&gt;(.*?)&lt;/title&gt;'</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">paste0</span><span class="p">(</span><span class="s1">'&lt;title&gt;'</span><span class="p">,</span><span class="w"> </span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="s1">'&lt;/title&gt;'</span><span class="p">),</span><span class="w">
+                  </span><span class="s1">'&lt;style type="text/css"&gt;'</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">styles</span><span class="p">,</span><span class="w">
+                  </span><span class="s1">'a href'</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'a target="_parent" href'</span><span class="p">))</span><span class="w">
+
+    </span><span class="c1">## write results back to the html file</span><span class="w">
+    </span><span class="n">writeLines</span><span class="p">(</span><span class="n">html</span><span class="p">,</span><span class="w"> </span><span class="n">con</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">html_filename</span><span class="p">)</span><span class="w">
+
+    </span><span class="c1">## remove interim .txt file</span><span class="w">
+    </span><span class="n">file.remove</span><span class="p">(</span><span class="n">paste0</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="s2">".txt"</span><span class="p">))</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><a id="comments"></a></p>
+
+					<br />
+				</div>
+            </div>
+				<ul class="pager">
+					
+					<li class="previous">
+						<a class="prev" href="/blog/2018/02/03/presenting-data-and-information/">&larr; Previous:  "Presenting Data and Information Seminar"</a>
+					</li>
+					
+					<li>
+						<a href="https://s.mylesandmyles.info/blog/">Main</a>
+					</li>
+					
+				</ul>
+			<br />
+			<h4 style="text-align:left;">Comments:</h4>
+<div id="disqus_thread"></div>
+<!-- Add Disqus comments (not comment count) -->
+<script type="text/javascript">
+    var disqus_shortname  = 'lognormality';
+    var disqus_identifier = '/blog/2019/02/11/iframeify/';
+    var disqus_title      = 'iframeify';
+    var disqus_url        = 'https://s.mylesandmyles.info//blog/2019/02/11/iframeify/';
+    // var disqus_developer = 1; // Comment out when the site is live
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+<!-- Add Disqus comment count (not the comments) -->
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES * * */
+  var disqus_shortname  = 'lognormality';
+  // var disqus_developer = 1; // Comment out when the site is live
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
+
+<noscript>
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+		</div>
+	</section>
+	<script id="dsq-count-scr" src="//lognormality.disqus.com/count.js" async></script>
+	
+        <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Links</h3>
+                        <p>
+                            <ul>
+								<li><p><a href="https://s.mylesandmyles.info/blog/">Lognormality</a> (blog)</p></li>
+								<li><p><a href="https://steve.mylesandmyles.info/">MEMORYLESSNESS</a> (tumblr)</p></li>
+								<li><p><a href="https://photos.scumdogentertainment.com/">Stochasticity</a> (my photos)</p></li>
+								<li><p><a href="https://about.me/stevemyles">about.me</a></p></li>
+								<li><p><a href="https://www.researchgate.net/profile/Steven_Myles2">ResearchGate</a></p></li>
+							</ul>	
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Me Elsewhere</h3>
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="https://www.linkedin.com/in/stevenmyles" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://github.com/scumdogsteev" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.flickr.com/photos/scumdogsteev/" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.instagram.com/scumdogsteev/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.youtube.com/user/scumdogsteev" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://soundcloud.com/scumdogsteev" class="btn-social btn-outline"><i class="fa fa-fw fa-soundcloud"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://steve.mylesandmyles.info/" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.last.fm/user/scumdogsteev" class="btn-social btn-outline"><i class="fa fa-fw fa-lastfm"></i></a>
+                            </li>
+		                    
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Credits</h3>
+                        <p>Theme = <a href="http://jekyllthemes.org/themes/freelancer/">Freelancer</a> by <a href="https://startbootstrap.com">Start Bootstrap</a>.  Hosting by <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; 1994-2019 <a href="mailto:steve@mylesandmyles.info">Steve Myles</a>. <a href="/license/">Some rights reserved</a>.<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+
+    <!-- ToggleDiv JavaScript -->
+    <script src="/js/toggleDiv.js"></script>
+    </body>
+</html>

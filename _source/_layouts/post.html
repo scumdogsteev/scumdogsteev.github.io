@@ -1,0 +1,59 @@
+---
+layout: default
+---
+	<section id="post">
+        <div class="container">
+		<br /><br /><br /><br /><br />
+		<div class="row">
+            <div class="col-lg-12">
+				<h2><a style="color:#39383d;" href="{{ site.url }}blog/">Lognormality</a></h2>
+                <hr class="star-primary">
+				<p align="center"><a href="{{ site.url }}blog/archive/">Archive</a></p>
+			</div>
+		</div>
+
+		<br /><br />
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>{{ page.title }}</h3>
+                    <hr class="star-primary">
+                    <p align="center">
+						{{ page.date | date_to_long_string }} {% if page.comments %} | <a href="{{ site.url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{post.url}}" class="page-scroll"></a> | {% endif %}
+						categories: {% assign categories_list = page.categories | sort %}{% for category in categories_list %}<a href="{{ site.url}}blog/{{ category }}/">{{ category | replace: "-", " " }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
+					</p>
+                </div>
+                </div>
+			<div class="row">
+                <div class="col-lg-12">
+					<br />
+					{% if page.image %}
+					<div align="center">
+						<a href="{{ page.image-source }}"><img src="{{ page.image }}" alt="{{ page.image-desc }} by {{ page.image-creator }}" class="img-responsive" /></a>
+						<span style="font-size:0.75em;font-style:italic">photo credit:  <a href="{{ page.image-credit }}">{{ page.image-creator }}</a></span>
+					</div>
+					{% endif %}
+					<br />
+					{{ content }}
+					<br />
+				</div>
+            </div>
+				<ul class="pager">
+					{% if page.previous.url %}
+					<li class="previous">
+						<a class="prev" href="{{page.previous.url}}">&larr; Previous:  "{{ page.previous.title }}"</a>
+					</li>
+					{% endif %}
+					<li>
+						<a href="{{ site.url }}blog/">Main</a>
+					</li>
+					{% if page.next.url %}
+					<li class="next">
+						<a class="next" href="{{page.next.url}}">Next:  "{{ page.next.title }}" &rarr;</a>
+					</li>
+					{% endif %}
+				</ul>
+			<br />
+			{% include disqus.html %}
+		</div>
+	</section>
+	<script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>

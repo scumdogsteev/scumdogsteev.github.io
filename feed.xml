@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve Myles</title>
+    <description>Steve Myles, some guy from Texas</description>
+    <link>https://s.mylesandmyles.info/blog/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 15 Feb 2019 21:11:45 -0600</pubDate>
+    <lastBuildDate>Fri, 15 Feb 2019 21:11:45 -0600</lastBuildDate>
+    <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>iframeify</title>
+        <description></description>
+        <pubDate>Mon, 11 Feb 2019 00:00:00 -0600</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2019/02/11/iframeify/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2019/02/11/iframeify/</guid>
+        
+        
+        <category>rstats</category>
+        
+      </item>
+    
+      <item>
+        <title>Presenting Data and Information Seminar</title>
+        <description></description>
+        <pubDate>Sat, 03 Feb 2018 00:00:00 -0600</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2018/02/03/presenting-data-and-information/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2018/02/03/presenting-data-and-information/</guid>
+        
+        
+        <category>visualization</category>
+        
+        <category>school</category>
+        
+      </item>
+    
+      <item>
+        <title>Survey Analysis in R with the Likert and NPS Packages</title>
+        <description></description>
+        <pubDate>Sat, 25 Nov 2017 00:00:00 -0600</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2017/11/25/survey-analysis/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2017/11/25/survey-analysis/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>visualization</category>
+        
+      </item>
+    
+      <item>
+        <title>Lognormality (the blog)</title>
+        <description></description>
+        <pubDate>Sun, 19 Nov 2017 00:00:00 -0600</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2017/11/19/lognormality/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2017/11/19/lognormality/</guid>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Breweries (and such), Visualized</title>
+        <description></description>
+        <pubDate>Sat, 24 Jun 2017 00:00:00 -0500</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2017/06/24/breweries-visualized/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2017/06/24/breweries-visualized/</guid>
+        
+        
+        <category>projects</category>
+        
+        <category>visualization</category>
+        
+      </item>
+    
+      <item>
+        <title>EOQ/EPQ Calculators</title>
+        <description></description>
+        <pubDate>Sun, 07 Feb 2016 00:00:00 -0600</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2016/02/07/eoq-epq/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2016/02/07/eoq-epq/</guid>
+        
+        
+        <category>projects</category>
+        
+        <category>rstats</category>
+        
+        <category>inventory-control</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>phonenumber v.0.2.2 - machine phase matter</title>
+        <description></description>
+        <pubDate>Tue, 08 Sep 2015 00:00:00 -0500</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2015/09/08/phonenumber-020/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2015/09/08/phonenumber-020/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>mlsjunkgen v.0.1.1 - Masked Rider</title>
+        <description></description>
+        <pubDate>Mon, 07 Sep 2015 00:00:00 -0500</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2015/09/07/mlsjunkgen-011/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2015/09/07/mlsjunkgen-011/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>phonenumber v.0.2.1 - phased plasma rifle in the 40-watt range</title>
+        <description></description>
+        <pubDate>Sat, 22 Aug 2015 00:00:00 -0500</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2015/08/22/phonenumber-021/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2015/08/22/phonenumber-021/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>mlsjunkgen</title>
+        <description></description>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 -0500</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2015/08/17/mlsjunkgen/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2015/08/17/mlsjunkgen/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>orms</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+  </channel>
+</rss>
