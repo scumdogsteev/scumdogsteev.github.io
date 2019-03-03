@@ -194,9 +194,11 @@ Googling helped me with the basics and I figured out the appropriate size (650x5
 </span><span class="c1">## converts a markdown file into an iframe-able html file for embedding in</span><span class="w">
 </span><span class="c1">## another site such as tumblr</span><span class="w">
 
+</span><span class="c1">## load knitr and stringr packages</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">knitr</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span><span class="w">
+
 </span><span class="n">iframeify</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="n">stylesheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"styles.css"</span><span class="p">,</span><span class="w"> </span><span class="n">styles</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"styles.txt"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="n">require</span><span class="p">(</span><span class="n">knitr</span><span class="p">)</span><span class="w">
-    </span><span class="n">require</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span><span class="w">
 
     </span><span class="c1">## add markdown and html extensions to filename</span><span class="w">
     </span><span class="n">md_filename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste0</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="w"> </span><span class="s2">".md"</span><span class="p">)</span><span class="w">

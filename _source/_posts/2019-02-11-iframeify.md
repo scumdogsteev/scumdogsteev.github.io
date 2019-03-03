@@ -85,9 +85,11 @@ This script, called [iframeify](https://github.com/scumdogsteev/iframeify), coul
 ## converts a markdown file into an iframe-able html file for embedding in
 ## another site such as tumblr
 
+## load knitr and stringr packages
+library(knitr)
+library(stringr)
+
 iframeify <- function(filename, stylesheet = "styles.css", styles = "styles.txt") {
-    require(knitr)
-    require(stringr)
 
     ## add markdown and html extensions to filename
     md_filename <- paste0(filename, ".md")
