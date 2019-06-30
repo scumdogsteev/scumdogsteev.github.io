@@ -5,9 +5,21 @@
     <description>Steve Myles, some guy from Texas</description>
     <link>https://s.mylesandmyles.info/blog/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Mar 2019 18:25:54 -0600</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 18:25:54 -0600</lastBuildDate>
-    <generator>Jekyll v3.7.2</generator>
+    <pubDate>Sun, 30 Jun 2019 13:28:31 -0500</pubDate>
+    <lastBuildDate>Sun, 30 Jun 2019 13:28:31 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The Noodle Man</title>
+        <description></description>
+        <pubDate>Sun, 30 Jun 2019 00:00:00 -0500</pubDate>
+        <link>https://s.mylesandmyles.info//blog/2019/06/30/noodle-man/</link>
+        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2019/06/30/noodle-man/</guid>
+        
+        
+        <category>other</category>
+        
+      </item>
     
       <item>
         <title>iframeify</title>
@@ -136,24 +148,6 @@
         <category>rstats</category>
         
         <category>r-package</category>
-        
-        <category>software</category>
-        
-      </item>
-    
-      <item>
-        <title>mlsjunkgen</title>
-        <description></description>
-        <pubDate>Mon, 17 Aug 2015 00:00:00 -0500</pubDate>
-        <link>https://s.mylesandmyles.info//blog/2015/08/17/mlsjunkgen/</link>
-        <guid isPermaLink="true">https://s.mylesandmyles.info//blog/2015/08/17/mlsjunkgen/</guid>
-        
-        
-        <category>rstats</category>
-        
-        <category>r-package</category>
-        
-        <category>orms</category>
         
         <category>software</category>
         

@@ -28,7 +28,7 @@ permalink: blog/archive/
 				</div>
 				<div class="col-md-4 col-centered">
 					{% assign tags_list = site.categories | sort %}
-					{% for tag in tags_list limit:3 offset:6 %}{% capture category_name %}{{ tag | first }}{% endcapture %}
+					{% for tag in tags_list limit:4 offset:6 %}{% capture category_name %}{{ tag | first }}{% endcapture %}
 					<a name="{{ category_name | slugize }}"></a><div id="#{{ category_name | slugize }}"></div>
 					<h3>{{ category_name | replace: "-", " " }}</h3>
 						<ul>
@@ -40,7 +40,7 @@ permalink: blog/archive/
 				</div>
 				<div class="col-md-4 col-centered">
 					{% assign tags_list = site.categories | sort %}
-					{% for tag in tags_list offset:9 %}{% capture category_name %}{{ tag | first }}{% endcapture %}
+					{% for tag in tags_list offset:10 %}{% capture category_name %}{{ tag | first }}{% endcapture %}
 					<a name="{{ category_name | slugize }}"></a><div id="#{{ category_name | slugize }}"></div>
 					<h3>{{ category_name | replace: "-", " " }}</h3>
 						<ul>
