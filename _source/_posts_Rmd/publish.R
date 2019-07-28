@@ -16,7 +16,7 @@ markdown_file <- markdown_file %>%
                  str_c() %>%
                  str_replace_all(c("<img src" = "{::nomarkdown}<img src", 
                                    "auto;\" />" = "auto;\" />{:/}",
-                                   "../img/" = "https://s.mylesandmyles.info/img/",
+                                   "../img/" = "https://stevemyles.site/img/",
                                    '.png"' = '.png" class="img-responsive"',
                                    '.jpg"' = '.jpg" class="img-responsive"',
                                    "\"\"" = "\""))

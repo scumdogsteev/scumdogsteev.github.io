@@ -13,14 +13,14 @@ image-source: https://www.flickr.com/photos/tesschamakkala/1659258787
 image-desc: New phone...
 image-credit: https://www.flickr.com/photos/tesschamakkala/
 image-creator: Tessss
-summary: <a href="https://s.mylesandmyles.info/phonenumber/">phonenumber</a> is a simple R package that converts English letters to numbers or numbers to English letters as on a telephone keypad
+summary: <a href="https://stevemyles.site/phonenumber/">phonenumber</a> is a simple R package that converts English letters to numbers or numbers to English letters as on a telephone keypad
 ---
 
 -[ **background** ]-
 
-“**[phonenumber](https://s.mylesandmyles.info/phonenumber/)**” is a simple [R](http://www.r-project.org/) package that converts English letters to numbers or numbers to English letters as on a telephone keypad.
+“**[phonenumber](https://stevemyles.site/phonenumber/)**” is a simple [R](http://www.r-project.org/) package that converts English letters to numbers or numbers to English letters as on a telephone keypad.
 
-When I recently posted some of my [Turbo Pascal Stuff](https://s.mylesandmyles.info/blog/2015/06/19/turbo-pascal-stuff/), I found an incomplete program that was supposed to do this.  I was active on [BBSes](https://en.wikipedia.org/wiki/Bulletin_board_system) and, though I don’t recall the reason, I wanted a way to determine the possible words spelled by the BBS phone numbers (and/or how to determine what phone numbers correspond to words/phrases).  I never got around to finishing the second part (numbers to letters) in Turbo Pascal, though.
+When I recently posted some of my [Turbo Pascal Stuff](https://stevemyles.site/blog/2015/06/19/turbo-pascal-stuff/), I found an incomplete program that was supposed to do this.  I was active on [BBSes](https://en.wikipedia.org/wiki/Bulletin_board_system) and, though I don’t recall the reason, I wanted a way to determine the possible words spelled by the BBS phone numbers (and/or how to determine what phone numbers correspond to words/phrases).  I never got around to finishing the second part (numbers to letters) in Turbo Pascal, though.
 
 I decided to create this functionality in R for three reasons:
 
@@ -105,7 +105,7 @@ numberToLetter(string)
 
 *   MIT License
 
--[ **[releases](https://github.com/scumdogsteev/phonenumber/releases) / [changelog](https://s.mylesandmyles.info/phonenumber/news/index.html)** ]-
+-[ **[releases](https://github.com/scumdogsteev/phonenumber/releases) / [changelog](https://stevemyles.site/phonenumber/news/index.html)** ]-
 
 For no particular reason, versions of phonenumber will be named after things from the [_Terminator_ universe](https://en.wikipedia.org/wiki/Terminator_(franchise)).
 
@@ -132,7 +132,7 @@ For no particular reason, versions of phonenumber will be named after things fro
 
 -[ **download / install r package** ]-
 
-*   [phonenumber home](https://s.mylesandmyles.info/phonenumber/)
+*   [phonenumber home](https://stevemyles.site/phonenumber/)
 *   [phonenumber on CRAN](http://cran.r-project.org/web/packages/phonenumber/index.html)
 *   [phonenumber vignette](http://cran.r-project.org/web/packages/phonenumber/vignettes/phonenumber.html)
 *   [phonenumber GitHub repository](https://github.com/scumdogsteev/phonenumber)

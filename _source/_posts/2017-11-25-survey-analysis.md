@@ -68,7 +68,7 @@ various aspects of XYZ Corp's business.  All questions are on an 11-point
 For the purposes of this post, I'm assuming your survey results have already been imported into an R data frame.  
 
 In this example, I've randomly generated 1,000 survey responses to each of the above 10 questions using the
-[mlsjunkgen package](http://s.mylesandmyles.info/mlsjunkgen/) (I may be biased in my choice of RNG).
+[mlsjunkgen package](http://stevemyles.site/mlsjunkgen/) (I may be biased in my choice of RNG).
 I have arbitrarily chosen 1, 9, 2, and 3 as the seeds:
 
 
@@ -214,10 +214,10 @@ Here are the first few responses again:
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 1 </td>
@@ -226,7 +226,7 @@ Here are the first few responses again:
    <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:right;"> 6 </td>
@@ -255,7 +255,7 @@ Here are the first few responses again:
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
   </tr>
   <tr>
@@ -312,10 +312,10 @@ names(survey_data) <- c("Satisfaction Q1", "Satisfaction Q2", "Satisfaction Q3",
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 1 </td>
@@ -324,7 +324,7 @@ names(survey_data) <- c("Satisfaction Q1", "Satisfaction Q2", "Satisfaction Q3",
    <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:right;"> 6 </td>
@@ -353,7 +353,7 @@ names(survey_data) <- c("Satisfaction Q1", "Satisfaction Q2", "Satisfaction Q3",
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
   </tr>
   <tr>
@@ -410,29 +410,29 @@ Here is a summary so far:
 <tbody>
   <tr>
    <td style="text-align:left;"> Number of Responses </td>
+   <td style="text-align:left;"> 937 </td>
+   <td style="text-align:left;"> 921 </td>
    <td style="text-align:left;"> 934 </td>
-   <td style="text-align:left;"> 938 </td>
-   <td style="text-align:left;"> 928 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 924 </td>
-   <td style="text-align:left;"> 935 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 925 </td>
+   <td style="text-align:left;"> 932 </td>
+   <td style="text-align:left;"> 926 </td>
+   <td style="text-align:left;"> 919 </td>
+   <td style="text-align:left;"> 926 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 918 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Average Response </td>
-   <td style="text-align:left;"> 5.14 </td>
-   <td style="text-align:left;"> 4.83 </td>
-   <td style="text-align:left;"> 5.06 </td>
-   <td style="text-align:left;"> 5.06 </td>
-   <td style="text-align:left;"> 4.78 </td>
-   <td style="text-align:left;"> 5.01 </td>
-   <td style="text-align:left;"> 4.99 </td>
+   <td style="text-align:left;"> 5.13 </td>
+   <td style="text-align:left;"> 4.79 </td>
+   <td style="text-align:left;"> 5.03 </td>
    <td style="text-align:left;"> 5.04 </td>
+   <td style="text-align:left;"> 4.72 </td>
    <td style="text-align:left;"> 5.02 </td>
-   <td style="text-align:left;"> 4.98 </td>
+   <td style="text-align:left;"> 4.97 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 5.08 </td>
+   <td style="text-align:left;"> 5.03 </td>
   </tr>
 </tbody>
 </table>
@@ -496,43 +496,43 @@ This table tells the story:  XYZ Corp. has a problem with customer satisfaction.
 <tbody>
   <tr>
    <td style="text-align:left;"> n </td>
+   <td style="text-align:left;"> 937 </td>
+   <td style="text-align:left;"> 921 </td>
    <td style="text-align:left;"> 934 </td>
-   <td style="text-align:left;"> 938 </td>
-   <td style="text-align:left;"> 928 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 924 </td>
+   <td style="text-align:left;"> 932 </td>
+   <td style="text-align:left;"> 926 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Avg. Satisfaction </td>
    <td style="text-align:left;"> 5.10 </td>
    <td style="text-align:left;"> 4.80 </td>
-   <td style="text-align:left;"> 5.10 </td>
-   <td style="text-align:left;"> 5.10 </td>
-   <td style="text-align:left;"> 4.80 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 4.70 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> SAT % </td>
-   <td style="text-align:left;"> 16.06% </td>
-   <td style="text-align:left;"> 15.57% </td>
-   <td style="text-align:left;"> 13.90% </td>
-   <td style="text-align:left;"> 13.76% </td>
-   <td style="text-align:left;"> 14.72% </td>
+   <td style="text-align:left;"> 16.65% </td>
+   <td style="text-align:left;"> 14.44% </td>
+   <td style="text-align:left;"> 13.28% </td>
+   <td style="text-align:left;"> 13.84% </td>
+   <td style="text-align:left;"> 14.15% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Neutral % </td>
-   <td style="text-align:left;"> 41.11% </td>
-   <td style="text-align:left;"> 35.93% </td>
-   <td style="text-align:left;"> 42.03% </td>
-   <td style="text-align:left;"> 41.39% </td>
-   <td style="text-align:left;"> 36.90% </td>
+   <td style="text-align:left;"> 40.13% </td>
+   <td style="text-align:left;"> 37.02% </td>
+   <td style="text-align:left;"> 43.04% </td>
+   <td style="text-align:left;"> 40.99% </td>
+   <td style="text-align:left;"> 36.50% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> DSAT % </td>
-   <td style="text-align:left;"> 42.83% </td>
-   <td style="text-align:left;"> 48.51% </td>
-   <td style="text-align:left;"> 44.07% </td>
-   <td style="text-align:left;"> 44.85% </td>
-   <td style="text-align:left;"> 48.38% </td>
+   <td style="text-align:left;"> 43.22% </td>
+   <td style="text-align:left;"> 48.53% </td>
+   <td style="text-align:left;"> 43.68% </td>
+   <td style="text-align:left;"> 45.17% </td>
+   <td style="text-align:left;"> 49.35% </td>
   </tr>
 </tbody>
 </table>
@@ -576,7 +576,7 @@ sat_likert <- likert(sat, nlevels = 3)
 plot(sat_likert)
 ```
 
-{::nomarkdown}<img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-1.png" class="img-responsive" title="plot of chunk plot-satisfaction" alt="plot of chunk plot-satisfaction" style="display: block; margin: auto;" />{:/}
+{::nomarkdown}<img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-1.png" class="img-responsive" title="plot of chunk plot-satisfaction" alt="plot of chunk plot-satisfaction" style="display: block; margin: auto;" />{:/}
 
 That's a good start, but there are a few things I would like to change:
 
@@ -598,7 +598,7 @@ plot(sat_likert, group.order = names(sat), centered = FALSE, low.color = "red", 
      high.color = "green")  
 ```
 
-{::nomarkdown}<img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-2-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-2" alt="plot of chunk plot-satisfaction-2" style="display: block; margin: auto;" />{:/}
+{::nomarkdown}<img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-2-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-2" alt="plot of chunk plot-satisfaction-2" style="display: block; margin: auto;" />{:/}
 
 That's much closer to the desired plot.  Average satisfaction is still missing, though.  The easiest way I've 
 found to add that is annotation. (The likert package extends the functionality of [ggplot2](http://ggplot2.org/), so 
@@ -620,7 +620,7 @@ plot(sat_likert, group.order = names(sat), centered = FALSE, low.color = "red", 
   annotate("text", x = 1, y = 50, label = avg_sat_label[5], size = 4, alpha = 0.75)
 ```
 
-{::nomarkdown}<img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-3-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-3" alt="plot of chunk plot-satisfaction-3" style="display: block; margin: auto;" />{:/}
+{::nomarkdown}<img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-3-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-3" alt="plot of chunk plot-satisfaction-3" style="display: block; margin: auto;" />{:/}
 
 (Note that the x positions of the labels were determined through trial and error and that `y = 50` is the 
 *horizontal* center of the plot; if this were a -100% to 100% plot, `y = 0` would center the annotation.)
@@ -647,7 +647,7 @@ plot(sat_likert, group.order = names(sat), centered = FALSE, low.color = "red", 
   theme(plot.title = element_text(hjust = 0.5)) + ggtitle("Satisfaction with XYZ")
 ```
 
-{::nomarkdown}<img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-4-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-4" alt="plot of chunk plot-satisfaction-4" style="display: block; margin: auto;" />{:/}
+{::nomarkdown}<img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-4-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-4" alt="plot of chunk plot-satisfaction-4" style="display: block; margin: auto;" />{:/}
 (Again, the size and positions of the boxes were determined through trial and error.)
 
 This looks almost like the desired plot, but I want to see whether the "avg. satisfaction" boxes would look
@@ -674,7 +674,7 @@ plot(sat_likert, group.order = names(sat), centered = FALSE, low.color = "red", 
   theme(plot.title = element_text(hjust = 0.5)) + ggtitle("Satisfaction with XYZ")
 ```
 
-{::nomarkdown}<img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-5-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-5" alt="plot of chunk plot-satisfaction-5" style="display: block; margin: auto;" />{:/}
+{::nomarkdown}<img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-5-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-5" alt="plot of chunk plot-satisfaction-5" style="display: block; margin: auto;" />{:/}
 
 While this is closer to the desired plot, I'm undecided as to  whether this looks better than the plot above.  If the 
 data were real and not randomly generated (and thus less likely to all be centered around 5), there might be more 
@@ -719,23 +719,23 @@ package for XYZ's recommendation questions:
 <tbody>
   <tr>
    <td style="text-align:left;"> Recommendation Q1 </td>
-   <td style="text-align:right;"> -0.5283422 </td>
+   <td style="text-align:right;"> -0.5255713 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q2 </td>
-   <td style="text-align:right;"> -0.4800000 </td>
+   <td style="text-align:right;"> -0.4848812 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q3 </td>
-   <td style="text-align:right;"> -0.4886486 </td>
+   <td style="text-align:right;"> -0.4989154 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q4 </td>
-   <td style="text-align:right;"> -0.4897075 </td>
+   <td style="text-align:right;"> -0.4793926 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q5 </td>
-   <td style="text-align:right;"> -0.4951351 </td>
+   <td style="text-align:right;"> -0.4891068 </td>
   </tr>
 </tbody>
 </table>
@@ -778,51 +778,51 @@ This table tells the recommendation story.  Wow, XYZ Corp. is in trouble:
 <tbody>
   <tr>
    <td style="text-align:left;"> n </td>
-   <td style="text-align:left;"> 935 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 925 </td>
+   <td style="text-align:left;"> 919 </td>
+   <td style="text-align:left;"> 926 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 918 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Avg. Likelihood to Recommend </td>
-   <td style="text-align:left;"> 5.01 </td>
-   <td style="text-align:left;"> 4.99 </td>
-   <td style="text-align:left;"> 5.04 </td>
    <td style="text-align:left;"> 5.02 </td>
-   <td style="text-align:left;"> 4.98 </td>
+   <td style="text-align:left;"> 4.97 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 5.08 </td>
+   <td style="text-align:left;"> 5.03 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> NPS </td>
-   <td style="text-align:left;"> -52.83 </td>
-   <td style="text-align:left;"> -48.00 </td>
-   <td style="text-align:left;"> -48.86 </td>
-   <td style="text-align:left;"> -48.97 </td>
-   <td style="text-align:left;"> -49.51 </td>
+   <td style="text-align:left;"> -52.56 </td>
+   <td style="text-align:left;"> -48.49 </td>
+   <td style="text-align:left;"> -49.89 </td>
+   <td style="text-align:left;"> -47.94 </td>
+   <td style="text-align:left;"> -48.91 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> % Promoters </td>
-   <td style="text-align:left;"> 13.58% </td>
-   <td style="text-align:left;"> 16.22% </td>
-   <td style="text-align:left;"> 15.57% </td>
-   <td style="text-align:left;"> 15.17% </td>
-   <td style="text-align:left;"> 15.03% </td>
+   <td style="text-align:left;"> 13.82% </td>
+   <td style="text-align:left;"> 15.98% </td>
+   <td style="text-align:left;"> 15.40% </td>
+   <td style="text-align:left;"> 16.05% </td>
+   <td style="text-align:left;"> 15.25% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> % Passives </td>
-   <td style="text-align:left;"> 20.00% </td>
-   <td style="text-align:left;"> 19.57% </td>
-   <td style="text-align:left;"> 20.00% </td>
-   <td style="text-align:left;"> 20.69% </td>
-   <td style="text-align:left;"> 20.43% </td>
+   <td style="text-align:left;"> 19.80% </td>
+   <td style="text-align:left;"> 19.55% </td>
+   <td style="text-align:left;"> 19.31% </td>
+   <td style="text-align:left;"> 19.96% </td>
+   <td style="text-align:left;"> 20.59% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> % Detractors </td>
-   <td style="text-align:left;"> 66.42% </td>
-   <td style="text-align:left;"> 64.22% </td>
-   <td style="text-align:left;"> 64.43% </td>
-   <td style="text-align:left;"> 64.14% </td>
-   <td style="text-align:left;"> 64.54% </td>
+   <td style="text-align:left;"> 66.38% </td>
+   <td style="text-align:left;"> 64.47% </td>
+   <td style="text-align:left;"> 65.29% </td>
+   <td style="text-align:left;"> 63.99% </td>
+   <td style="text-align:left;"> 64.16% </td>
   </tr>
 </tbody>
 </table>
@@ -868,7 +868,7 @@ plot(rec_likert, group.order = names(rec)) +
   theme(plot.title = element_text(hjust = 0.5)) + ggtitle("Likelihood to Recommend XYZ Corp.")
 ```
 
-{::nomarkdown}<img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-recommendation-1.png" class="img-responsive" title="plot of chunk plot-recommendation" alt="plot of chunk plot-recommendation" style="display: block; margin: auto;" />{:/}
+{::nomarkdown}<img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-recommendation-1.png" class="img-responsive" title="plot of chunk plot-recommendation" alt="plot of chunk plot-recommendation" style="display: block; margin: auto;" />{:/}
 
 Due to the random nature of the data (centered around the midpoint of the range), the labels cover up the % passives. 
 Here's one more plot, with the labels in their relative (NPS) positions.
@@ -890,7 +890,7 @@ plot(rec_likert, group.order = names(rec)) +
   theme(plot.title = element_text(hjust = 0.5)) + ggtitle("Likelihood to Recommend XYZ Corp.")
 ```
 
-{::nomarkdown}<img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-recommendation 2-1.png" class="img-responsive" title="plot of chunk plot-recommendation 2" alt="plot of chunk plot-recommendation 2" style="display: block; margin: auto;" />{:/}
+{::nomarkdown}<img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-recommendation 2-1.png" class="img-responsive" title="plot of chunk plot-recommendation 2" alt="plot of chunk plot-recommendation 2" style="display: block; margin: auto;" />{:/}
 
 Much better, but bad news for XYZ Corp.'s management.
 

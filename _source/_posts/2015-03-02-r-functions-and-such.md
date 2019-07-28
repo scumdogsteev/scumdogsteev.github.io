@@ -20,7 +20,7 @@ summary: R functions I've found useful
 
 -[ **scripts** ]-
 
-Scripts can be found [here](http://s.mylesandmyles.info/R-functions-and-such) or in the repository [here](https://github.com/scumdogsteev/R-functions-and-such/tree/gh-pages/scripts) .
+Scripts can be found [here](http://stevemyles.site/R-functions-and-such) or in the repository [here](https://github.com/scumdogsteev/R-functions-and-such/tree/gh-pages/scripts) .
 
 -[ **license** ]-
 

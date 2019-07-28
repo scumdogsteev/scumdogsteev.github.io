@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Steve Myles, some guy from Texas">
     <meta name="author" content="Steve Myles">
-    <link rel="canonical" href="https://s.mylesandmyles.info/blog/2017/11/25/survey-analysis/">
+    <link rel="canonical" href="https://stevemyles.site/blog/2017/11/25/survey-analysis/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-	<link rel="icon" type="image/png" href="https://s.mylesandmyles.info/img/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="https://s.mylesandmyles.info/img/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="https://stevemyles.site/img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="https://stevemyles.site/img/favicon-16x16.png" sizes="16x16" />
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/style.css">
 
@@ -55,7 +55,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-				<a class="navbar-brand" href="https://s.mylesandmyles.info/#page-top">Steve Myles</a>
+				<a class="navbar-brand" href="https://stevemyles.site/#page-top">Steve Myles</a>
 				
             </div>
 
@@ -64,19 +64,19 @@
 				<ul class="nav navbar-nav navbar-right">
                     
 					<li class="hidden">
-                        <a href="https://s.mylesandmyles.info/#page-top"></a>
+                        <a href="https://stevemyles.site/#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="https://s.mylesandmyles.info/#about">About</a>
+                        <a href="https://stevemyles.site/#about">About</a>
                     </li>
 					<li class="page-scroll">
-                        <a href="https://s.mylesandmyles.info/#experience">Experience</a>
+                        <a href="https://stevemyles.site/#experience">Experience</a>
                     </li>					
                     <li class="page-scroll">
-                        <a href="https://s.mylesandmyles.info/#projects">Projects</a>
+                        <a href="https://stevemyles.site/#projects">Projects</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="https://s.mylesandmyles.info/#talks">Talks</a>
+                        <a href="https://stevemyles.site/#talks">Talks</a>
                     </li>
 					
                     <li class="page-scroll">
@@ -98,9 +98,9 @@
 		<br /><br /><br /><br /><br />
 		<div class="row">
             <div class="col-lg-12">
-				<h2><a style="color:#39383d;" href="https://s.mylesandmyles.info/blog/">Lognormality</a></h2>
+				<h2><a style="color:#39383d;" href="https://stevemyles.site/blog/">Lognormality</a></h2>
                 <hr class="star-primary">
-				<p align="center"><a href="https://s.mylesandmyles.info/blog/archive/">Archive</a></p>
+				<p align="center"><a href="https://stevemyles.site/blog/archive/">Archive</a></p>
 			</div>
 		</div>
 
@@ -110,8 +110,8 @@
                     <h3>Survey Analysis in R with the Likert and NPS Packages</h3>
                     <hr class="star-primary">
                     <p align="center">
-						25 November 2017  | <a href="https://s.mylesandmyles.info//blog/2017/11/25/survey-analysis/#disqus_thread" data-disqus-identifier="" class="page-scroll"></a> | 
-						categories: <a href="https://s.mylesandmyles.info/blog/rstats/">rstats</a>, <a href="https://s.mylesandmyles.info/blog/visualization/">visualization</a>
+						25 November 2017  | <a href="https://stevemyles.site//blog/2017/11/25/survey-analysis/#disqus_thread" data-disqus-identifier="" class="page-scroll"></a> | 
+						categories: <a href="https://stevemyles.site/blog/rstats/">rstats</a>, <a href="https://stevemyles.site/blog/visualization/">visualization</a>
 					</p>
                 </div>
                 </div>
@@ -187,7 +187,7 @@ various aspects of XYZ Corp’s business.  All questions are on an 11-point
 <p>For the purposes of this post, I’m assuming your survey results have already been imported into an R data frame.</p>
 
 <p>In this example, I’ve randomly generated 1,000 survey responses to each of the above 10 questions using the
-<a href="http://s.mylesandmyles.info/mlsjunkgen/">mlsjunkgen package</a> (I may be biased in my choice of RNG).
+<a href="http://stevemyles.site/mlsjunkgen/">mlsjunkgen package</a> (I may be biased in my choice of RNG).
 I have arbitrarily chosen 1, 9, 2, and 3 as the seeds:</p>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">require</span><span class="p">(</span><span class="n">mlsjunkgen</span><span class="p">)</span><span class="w">
@@ -329,10 +329,10 @@ response</a>.</p>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 1 </td>
@@ -341,7 +341,7 @@ response</a>.</p>
    <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:right;"> 6 </td>
@@ -370,7 +370,7 @@ response</a>.</p>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
   </tr>
   <tr>
@@ -425,10 +425,10 @@ response</a>.</p>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
    <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 2 </td>
    <td style="text-align:right;"> 1 </td>
@@ -437,7 +437,7 @@ response</a>.</p>
    <td style="text-align:right;"> 1 </td>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
    <td style="text-align:right;"> 9 </td>
    <td style="text-align:right;"> 6 </td>
@@ -466,7 +466,7 @@ response</a>.</p>
    <td style="text-align:right;"> 8 </td>
    <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> NA </td>
    <td style="text-align:right;"> 5 </td>
   </tr>
   <tr>
@@ -521,29 +521,29 @@ response</a>.</p>
 <tbody>
   <tr>
    <td style="text-align:left;"> Number of Responses </td>
+   <td style="text-align:left;"> 937 </td>
+   <td style="text-align:left;"> 921 </td>
    <td style="text-align:left;"> 934 </td>
-   <td style="text-align:left;"> 938 </td>
-   <td style="text-align:left;"> 928 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 924 </td>
-   <td style="text-align:left;"> 935 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 925 </td>
+   <td style="text-align:left;"> 932 </td>
+   <td style="text-align:left;"> 926 </td>
+   <td style="text-align:left;"> 919 </td>
+   <td style="text-align:left;"> 926 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 918 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Average Response </td>
-   <td style="text-align:left;"> 5.14 </td>
-   <td style="text-align:left;"> 4.83 </td>
-   <td style="text-align:left;"> 5.06 </td>
-   <td style="text-align:left;"> 5.06 </td>
-   <td style="text-align:left;"> 4.78 </td>
-   <td style="text-align:left;"> 5.01 </td>
-   <td style="text-align:left;"> 4.99 </td>
+   <td style="text-align:left;"> 5.13 </td>
+   <td style="text-align:left;"> 4.79 </td>
+   <td style="text-align:left;"> 5.03 </td>
    <td style="text-align:left;"> 5.04 </td>
+   <td style="text-align:left;"> 4.72 </td>
    <td style="text-align:left;"> 5.02 </td>
-   <td style="text-align:left;"> 4.98 </td>
+   <td style="text-align:left;"> 4.97 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 5.08 </td>
+   <td style="text-align:left;"> 5.03 </td>
   </tr>
 </tbody>
 </table>
@@ -607,43 +607,43 @@ recommendation questions later.</p>
 <tbody>
   <tr>
    <td style="text-align:left;"> n </td>
+   <td style="text-align:left;"> 937 </td>
+   <td style="text-align:left;"> 921 </td>
    <td style="text-align:left;"> 934 </td>
-   <td style="text-align:left;"> 938 </td>
-   <td style="text-align:left;"> 928 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 924 </td>
+   <td style="text-align:left;"> 932 </td>
+   <td style="text-align:left;"> 926 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Avg. Satisfaction </td>
    <td style="text-align:left;"> 5.10 </td>
    <td style="text-align:left;"> 4.80 </td>
-   <td style="text-align:left;"> 5.10 </td>
-   <td style="text-align:left;"> 5.10 </td>
-   <td style="text-align:left;"> 4.80 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 4.70 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> SAT % </td>
-   <td style="text-align:left;"> 16.06% </td>
-   <td style="text-align:left;"> 15.57% </td>
-   <td style="text-align:left;"> 13.90% </td>
-   <td style="text-align:left;"> 13.76% </td>
-   <td style="text-align:left;"> 14.72% </td>
+   <td style="text-align:left;"> 16.65% </td>
+   <td style="text-align:left;"> 14.44% </td>
+   <td style="text-align:left;"> 13.28% </td>
+   <td style="text-align:left;"> 13.84% </td>
+   <td style="text-align:left;"> 14.15% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Neutral % </td>
-   <td style="text-align:left;"> 41.11% </td>
-   <td style="text-align:left;"> 35.93% </td>
-   <td style="text-align:left;"> 42.03% </td>
-   <td style="text-align:left;"> 41.39% </td>
-   <td style="text-align:left;"> 36.90% </td>
+   <td style="text-align:left;"> 40.13% </td>
+   <td style="text-align:left;"> 37.02% </td>
+   <td style="text-align:left;"> 43.04% </td>
+   <td style="text-align:left;"> 40.99% </td>
+   <td style="text-align:left;"> 36.50% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> DSAT % </td>
-   <td style="text-align:left;"> 42.83% </td>
-   <td style="text-align:left;"> 48.51% </td>
-   <td style="text-align:left;"> 44.07% </td>
-   <td style="text-align:left;"> 44.85% </td>
-   <td style="text-align:left;"> 48.38% </td>
+   <td style="text-align:left;"> 43.22% </td>
+   <td style="text-align:left;"> 48.53% </td>
+   <td style="text-align:left;"> 43.68% </td>
+   <td style="text-align:left;"> 45.17% </td>
+   <td style="text-align:left;"> 49.35% </td>
   </tr>
 </tbody>
 </table>
@@ -683,7 +683,7 @@ the plot will contain all relevant data:</p>
 </span><span class="n">plot</span><span class="p">(</span><span class="n">sat_likert</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p><img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-1.png" class="img-responsive" title="plot of chunk plot-satisfaction" alt="plot of chunk plot-satisfaction" style="display: block; margin: auto;" /></p>
+<p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-1.png" class="img-responsive" title="plot of chunk plot-satisfaction" alt="plot of chunk plot-satisfaction" style="display: block; margin: auto;" /></p>
 
 <p>That’s a good start, but there are a few things I would like to change:</p>
 
@@ -707,7 +707,7 @@ the plot will contain all relevant data:</p>
      </span><span class="n">high.color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"green"</span><span class="p">)</span><span class="w">  
 </span></code></pre></div></div>
 
-<p><img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-2-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-2" alt="plot of chunk plot-satisfaction-2" style="display: block; margin: auto;" /></p>
+<p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-2-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-2" alt="plot of chunk plot-satisfaction-2" style="display: block; margin: auto;" /></p>
 
 <p>That’s much closer to the desired plot.  Average satisfaction is still missing, though.  The easiest way I’ve 
 found to add that is annotation. (The likert package extends the functionality of <a href="http://ggplot2.org/">ggplot2</a>, so 
@@ -727,7 +727,7 @@ straightforward.</p>
   </span><span class="n">annotate</span><span class="p">(</span><span class="s2">"text"</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">50</span><span class="p">,</span><span class="w"> </span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">avg_sat_label</span><span class="p">[</span><span class="m">5</span><span class="p">],</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4</span><span class="p">,</span><span class="w"> </span><span class="n">alpha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.75</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p><img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-3-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-3" alt="plot of chunk plot-satisfaction-3" style="display: block; margin: auto;" /></p>
+<p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-3-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-3" alt="plot of chunk plot-satisfaction-3" style="display: block; margin: auto;" /></p>
 
 <p>(Note that the x positions of the labels were determined through trial and error and that <code class="highlighter-rouge">y = 50</code> is the 
 <em>horizontal</em> center of the plot; if this were a -100% to 100% plot, <code class="highlighter-rouge">y = 0</code> would center the annotation.)</p>
@@ -752,7 +752,7 @@ what they are seeing at a glance.</p>
   </span><span class="n">theme</span><span class="p">(</span><span class="n">plot.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">ggtitle</span><span class="p">(</span><span class="s2">"Satisfaction with XYZ"</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p><img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-4-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-4" alt="plot of chunk plot-satisfaction-4" style="display: block; margin: auto;" />
+<p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-4-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-4" alt="plot of chunk plot-satisfaction-4" style="display: block; margin: auto;" />
 (Again, the size and positions of the boxes were determined through trial and error.)</p>
 
 <p>This looks almost like the desired plot, but I want to see whether the “avg. satisfaction” boxes would look
@@ -777,7 +777,7 @@ better at their relative positions on the horizontal axis.</p>
   </span><span class="n">theme</span><span class="p">(</span><span class="n">plot.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">ggtitle</span><span class="p">(</span><span class="s2">"Satisfaction with XYZ"</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p><img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-satisfaction-5-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-5" alt="plot of chunk plot-satisfaction-5" style="display: block; margin: auto;" /></p>
+<p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-5-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-5" alt="plot of chunk plot-satisfaction-5" style="display: block; margin: auto;" /></p>
 
 <p>While this is closer to the desired plot, I’m undecided as to  whether this looks better than the plot above.  If the 
 data were real and not randomly generated (and thus less likely to all be centered around 5), there might be more 
@@ -822,23 +822,23 @@ package for XYZ’s recommendation questions:</p>
 <tbody>
   <tr>
    <td style="text-align:left;"> Recommendation Q1 </td>
-   <td style="text-align:right;"> -0.5283422 </td>
+   <td style="text-align:right;"> -0.5255713 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q2 </td>
-   <td style="text-align:right;"> -0.4800000 </td>
+   <td style="text-align:right;"> -0.4848812 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q3 </td>
-   <td style="text-align:right;"> -0.4886486 </td>
+   <td style="text-align:right;"> -0.4989154 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q4 </td>
-   <td style="text-align:right;"> -0.4897075 </td>
+   <td style="text-align:right;"> -0.4793926 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Recommendation Q5 </td>
-   <td style="text-align:right;"> -0.4951351 </td>
+   <td style="text-align:right;"> -0.4891068 </td>
   </tr>
 </tbody>
 </table>
@@ -879,51 +879,51 @@ there’s one thing that XYZ Corp.’s management values, it’s uniformity.</p>
 <tbody>
   <tr>
    <td style="text-align:left;"> n </td>
-   <td style="text-align:left;"> 935 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 925 </td>
-   <td style="text-align:left;"> 923 </td>
-   <td style="text-align:left;"> 925 </td>
+   <td style="text-align:left;"> 919 </td>
+   <td style="text-align:left;"> 926 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 922 </td>
+   <td style="text-align:left;"> 918 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Avg. Likelihood to Recommend </td>
-   <td style="text-align:left;"> 5.01 </td>
-   <td style="text-align:left;"> 4.99 </td>
-   <td style="text-align:left;"> 5.04 </td>
    <td style="text-align:left;"> 5.02 </td>
-   <td style="text-align:left;"> 4.98 </td>
+   <td style="text-align:left;"> 4.97 </td>
+   <td style="text-align:left;"> 5.00 </td>
+   <td style="text-align:left;"> 5.08 </td>
+   <td style="text-align:left;"> 5.03 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> NPS </td>
-   <td style="text-align:left;"> -52.83 </td>
-   <td style="text-align:left;"> -48.00 </td>
-   <td style="text-align:left;"> -48.86 </td>
-   <td style="text-align:left;"> -48.97 </td>
-   <td style="text-align:left;"> -49.51 </td>
+   <td style="text-align:left;"> -52.56 </td>
+   <td style="text-align:left;"> -48.49 </td>
+   <td style="text-align:left;"> -49.89 </td>
+   <td style="text-align:left;"> -47.94 </td>
+   <td style="text-align:left;"> -48.91 </td>
   </tr>
   <tr>
    <td style="text-align:left;"> % Promoters </td>
-   <td style="text-align:left;"> 13.58% </td>
-   <td style="text-align:left;"> 16.22% </td>
-   <td style="text-align:left;"> 15.57% </td>
-   <td style="text-align:left;"> 15.17% </td>
-   <td style="text-align:left;"> 15.03% </td>
+   <td style="text-align:left;"> 13.82% </td>
+   <td style="text-align:left;"> 15.98% </td>
+   <td style="text-align:left;"> 15.40% </td>
+   <td style="text-align:left;"> 16.05% </td>
+   <td style="text-align:left;"> 15.25% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> % Passives </td>
-   <td style="text-align:left;"> 20.00% </td>
-   <td style="text-align:left;"> 19.57% </td>
-   <td style="text-align:left;"> 20.00% </td>
-   <td style="text-align:left;"> 20.69% </td>
-   <td style="text-align:left;"> 20.43% </td>
+   <td style="text-align:left;"> 19.80% </td>
+   <td style="text-align:left;"> 19.55% </td>
+   <td style="text-align:left;"> 19.31% </td>
+   <td style="text-align:left;"> 19.96% </td>
+   <td style="text-align:left;"> 20.59% </td>
   </tr>
   <tr>
    <td style="text-align:left;"> % Detractors </td>
-   <td style="text-align:left;"> 66.42% </td>
-   <td style="text-align:left;"> 64.22% </td>
-   <td style="text-align:left;"> 64.43% </td>
-   <td style="text-align:left;"> 64.14% </td>
-   <td style="text-align:left;"> 64.54% </td>
+   <td style="text-align:left;"> 66.38% </td>
+   <td style="text-align:left;"> 64.47% </td>
+   <td style="text-align:left;"> 65.29% </td>
+   <td style="text-align:left;"> 63.99% </td>
+   <td style="text-align:left;"> 64.16% </td>
   </tr>
 </tbody>
 </table>
@@ -967,7 +967,7 @@ Given that the scale of NPS is -100 to +100, I’ve also used the default scale 
   </span><span class="n">theme</span><span class="p">(</span><span class="n">plot.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">ggtitle</span><span class="p">(</span><span class="s2">"Likelihood to Recommend XYZ Corp."</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p><img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-recommendation-1.png" class="img-responsive" title="plot of chunk plot-recommendation" alt="plot of chunk plot-recommendation" style="display: block; margin: auto;" /></p>
+<p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-recommendation-1.png" class="img-responsive" title="plot of chunk plot-recommendation" alt="plot of chunk plot-recommendation" style="display: block; margin: auto;" /></p>
 
 <p>Due to the random nature of the data (centered around the midpoint of the range), the labels cover up the % passives. 
 Here’s one more plot, with the labels in their relative (NPS) positions.</p>
@@ -987,7 +987,7 @@ Here’s one more plot, with the labels in their relative (NPS) positions.</p>
   </span><span class="n">theme</span><span class="p">(</span><span class="n">plot.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">ggtitle</span><span class="p">(</span><span class="s2">"Likelihood to Recommend XYZ Corp."</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p><img src="https://s.mylesandmyles.info/img/2017-11-25-survey-analysis/plot-recommendation 2-1.png" class="img-responsive" title="plot of chunk plot-recommendation 2" alt="plot of chunk plot-recommendation 2" style="display: block; margin: auto;" /></p>
+<p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-recommendation 2-1.png" class="img-responsive" title="plot of chunk plot-recommendation 2" alt="plot of chunk plot-recommendation 2" style="display: block; margin: auto;" /></p>
 
 <p>Much better, but bad news for XYZ Corp.’s management.</p>
 
@@ -1008,7 +1008,7 @@ Here’s one more plot, with the labels in their relative (NPS) positions.</p>
 					</li>
 					
 					<li>
-						<a href="https://s.mylesandmyles.info/blog/">Main</a>
+						<a href="https://stevemyles.site/blog/">Main</a>
 					</li>
 					
 					<li class="next">
@@ -1024,7 +1024,7 @@ Here’s one more plot, with the labels in their relative (NPS) positions.</p>
     var disqus_shortname  = 'lognormality';
     var disqus_identifier = '/blog/2017/11/25/survey-analysis/';
     var disqus_title      = 'Survey Analysis in R with the Likert and NPS Packages';
-    var disqus_url        = 'https://s.mylesandmyles.info//blog/2017/11/25/survey-analysis/';
+    var disqus_url        = 'https://stevemyles.site//blog/2017/11/25/survey-analysis/';
     // var disqus_developer = 1; // Comment out when the site is live
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -1063,7 +1063,7 @@ Here’s one more plot, with the labels in their relative (NPS) positions.</p>
                         <h3>Links</h3>
                         <p>
                             <ul>
-								<li><p><a href="https://s.mylesandmyles.info/blog/">Lognormality</a> (blog)</p></li>
+								<li><p><a href="https://stevemyles.site/blog/">Lognormality</a> (blog)</p></li>
 								<li><p><a href="https://steve.mylesandmyles.info/">MEMORYLESSNESS</a> (tumblr)</p></li>
 								<li><p><a href="https://photos.scumdogentertainment.com/">Stochasticity</a> (my photos)</p></li>
 								<li><p><a href="https://about.me/stevemyles">about.me</a></p></li>

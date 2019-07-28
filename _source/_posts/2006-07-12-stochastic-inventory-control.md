@@ -19,7 +19,7 @@ summary: Programs that write one-step transition matrices and compute the equili
 
 -[ **background** ]-
 
- In the Spring of 2003, I took a course in [stochastic processes](http://en.wikipedia.org/wiki/Stochastic_process). The second exam was take home and required some coding, which I did in Turbo Pascal, as in the case of my [tic tac toe](http://s.mylesandmyles.info/blog/2006/07/10/tic-tac-toe) program one year later (the posting of which reminded me of the code from my stochastic processes class).
+ In the Spring of 2003, I took a course in [stochastic processes](http://en.wikipedia.org/wiki/Stochastic_process). The second exam was take home and required some coding, which I did in Turbo Pascal, as in the case of my [tic tac toe](http://stevemyles.site/blog/2006/07/10/tic-tac-toe) program one year later (the posting of which reminded me of the code from my stochastic processes class).
 
 -[ **assignment and notes** ]-
 > A local store uses an **(s, S)** inventory policy for a particular product. Every Friday evening after the store closes, the inventory level is checked. If the stock level for the product is greater than **s**, no action is taken. Otherwise, if the stock on hand is less than or equal to **s**, an amount **S-s** is procured over the weekend and is available when the store re-opens on Monday morning.

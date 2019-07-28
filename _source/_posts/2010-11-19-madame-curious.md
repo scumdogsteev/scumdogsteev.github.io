@@ -7,7 +7,7 @@ categories: education
 image: http://78.media.tumblr.com/tumblr_lc5uxcH0tS1qbby7no1_1280.jpg
 image-source: http://steve.mylesandmyles.info/post/1623055642/i-mentioned-previously-that-madame-curious-was
 image-desc: Me and Madame Curious
-image-credit: http://s.mylesandmyles.info/
+image-credit: http://stevemyles.site/
 image-creator: Steve Myles
 summary: <a href="http://madamecurious1.pbworks.com/">Madame Curious</a> came to visit me to learn about my job and O.R.
 ---

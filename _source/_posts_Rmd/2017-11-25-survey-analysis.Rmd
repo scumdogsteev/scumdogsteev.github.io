@@ -74,7 +74,7 @@ various aspects of XYZ Corp's business.  All questions are on an 11-point
 For the purposes of this post, I'm assuming your survey results have already been imported into an R data frame.  
 
 In this example, I've randomly generated 1,000 survey responses to each of the above 10 questions using the
-[mlsjunkgen package](http://s.mylesandmyles.info/mlsjunkgen/) (I may be biased in my choice of RNG).
+[mlsjunkgen package](http://stevemyles.site/mlsjunkgen/) (I may be biased in my choice of RNG).
 I have arbitrarily chosen 1, 9, 2, and 3 as the seeds:
 
 ```{r require mlsjunkgen and generate survey data}

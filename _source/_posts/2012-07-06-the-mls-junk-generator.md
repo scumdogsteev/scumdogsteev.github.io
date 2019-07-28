@@ -15,7 +15,7 @@ image-source: https://www.flickr.com/photos/twindx/6263696014
 image-desc: 1970s Random Number Generator
 image-credit: https://www.flickr.com/photos/twindx/
 image-creator: Irregular Shed
-summary: A pseudo-random number generator, featuring VBA and R implementations (including an <a href="https://s.mylesandmyles.info/mlsjunkgen/">R package</a>)
+summary: A pseudo-random number generator, featuring VBA and R implementations (including an <a href="https://stevemyles.site/mlsjunkgen/">R package</a>)
 ---
 
 
@@ -23,9 +23,9 @@ summary: A pseudo-random number generator, featuring VBA and R implementations (
 
 I took a course in graduate school ("[Statistical Analysis for Digital Simulation](http://catalog.ttu.edu/preview_course_nopop.php?catoid=2&amp;coid=9253)") at Texas Tech from Dr. Elliot Montes in which we spent a lot of time on the generation and analysis of random numbers.  Here is a simple-yet-powerful (pseudo)random number generator that I learned about in that course.  It is named "The MLS Junk Generator" after [Dr. Milton L. Smith](http://www.depts.ttu.edu/ieweb/faculty/faculty.php?name=Milton%20Smith).  I thought of it recently _[07/2012]_ (not sure why) and decided to share.
 
-_[**Update 02/2015**]_ Now that [I'm learning R](https://s.mylesandmyles.info/blog/2015/01/22/data-science-specialization/), I decided to convert the generator to that language and clean-up and post the Excel/VBA versions I already had.
+_[**Update 02/2015**]_ Now that [I'm learning R](https://stevemyles.site/blog/2015/01/22/data-science-specialization/), I decided to convert the generator to that language and clean-up and post the Excel/VBA versions I already had.
 
-_[**Update 08/2015**]_ This is now available as [an R package](https://s.mylesandmyles.info/mlsjunkgen/) ([CRAN](https://cran.r-project.org/web/packages/mlsjunkgen/index.html), [GitHub](https://github.com/scumdogsteev/mlsjunkgen)).
+_[**Update 08/2015**]_ This is now available as [an R package](https://stevemyles.site/mlsjunkgen/) ([CRAN](https://cran.r-project.org/web/packages/mlsjunkgen/index.html), [GitHub](https://github.com/scumdogsteev/mlsjunkgen)).
 
 -[ **the mls junk generator** ]-
 
@@ -84,7 +84,7 @@ Option Explicit
 
 In February 2015, I wrote two R functions with the same user-defined parameters as the VBA code above.  The file (see below) also contains a version of this function that generates a data frame.
 
--[ **r package ([mlsjunkgen](https://s.mylesandmyles.info/mlsjunkgen/))** ]-
+-[ **r package ([mlsjunkgen](https://stevemyles.site/mlsjunkgen/))** ]-
 
 **Installation:**
 
@@ -242,7 +242,7 @@ Spring 2004
 
 -[ **download/install r package** ]-
 
-*   [package home](http://s.mylesandmyles.info/mlsjunkgen/)
+*   [package home](http://stevemyles.site/mlsjunkgen/)
 *   [mlsjunkgen on CRAN](http://cran.r-project.org/web/packages/mlsjunkgen/index.html)
 *   [mlsjunkgen vignette](http://cran.r-project.org/web/packages/mlsjunkgen/vignettes/phonenumber.html)
 *   [mlsjunkgen GitHub repository](https://github.com/scumdogsteev/mlsjunkgen)

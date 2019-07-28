@@ -21,12 +21,12 @@ I’m currently (2016) taking the courses in the [Johns Hopkins University/Cour
 
 -[ **[developing data products](https://www.coursera.org/learn/data-products) (january - february 2016)** ]-
 
-* [Course Project: EOQ/EPQ Calculators](https://scumdogsteev.shinyapps.io/eoq-epq/) ([pitch](http://s.mylesandmyles.info/eoq-epq/) &#124; [repo](https://github.com/scumdogsteev/eoq-epq))
+* [Course Project: EOQ/EPQ Calculators](https://scumdogsteev.shinyapps.io/eoq-epq/) ([pitch](http://stevemyles.site/eoq-epq/) &#124; [repo](https://github.com/scumdogsteev/eoq-epq))
 * [Verified Certificate](https://www.coursera.org/account/accomplishments/certificate/P3NBJ33AUGFA)  
 
 -[ **[practical machine learning](https://www.coursera.org/learn/practical-machine-learning) (december 2015 - january 2016)** ]-
 
-* [Peer Assessment](http://s.mylesandmyles.info/practicalmachinelearning/)
+* [Peer Assessment](http://stevemyles.site/practicalmachinelearning/)
 * [Verified Certificate](https://www.coursera.org/account/accomplishments/certificate/V5JALUANX9)  
 
 -[ **[regression models](https://www.coursera.org/learn/regression-models) (november 2015)** ]-

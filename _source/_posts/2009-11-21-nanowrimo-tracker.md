@@ -39,19 +39,19 @@ Using it should be pretty intuitive, I think, but comment if you need help.  It 
 
 Check out these screenshots!  See how far behind I am!
 
-[![The Tracker Itself](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/tracker.jpg)](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/tracker.jpg)
+[![The Tracker Itself](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/tracker.jpg)](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/tracker.jpg)
 
 The Tracker Itself
 
-[![Summary Statistics](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/statistics.jpg)](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/statistics.jpg)
+[![Summary Statistics](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/statistics.jpg)](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/statistics.jpg)
 
 Summary Statistics
 
-[![Total Chart, showing performance relative to target](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/totalchart.jpg)](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/totalchart.jpg)
+[![Total Chart, showing performance relative to target](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/totalchart.jpg)](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/totalchart.jpg)
 
 Total Chart, showing wordcount relative to goal for the month
 
-[![Daily Chart, showing wordcount relative to goal on a daily basis](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/dailychart.jpg)](http://s.mylesandmyles.info/img/2009-11-21-nanowrimo-tracker/dailychart.jpg)
+[![Daily Chart, showing wordcount relative to goal on a daily basis](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/dailychart.jpg)](http://stevemyles.site/img/2009-11-21-nanowrimo-tracker/dailychart.jpg)
 
 Daily Chart, showing wordcount relative to goal on a daily basis
 

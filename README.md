@@ -1,3 +1,3 @@
-# scumdogsteev.github.io aka s.mylesandmyles.info
+# scumdogsteev.github.io aka stevemyles.site
 
-Website of [Scumdog Steev / Steve Myles](https://s.mylesandmyles.info/)
+Website of [Scumdog Steev / Steve Myles](https://stevemyles.site/)

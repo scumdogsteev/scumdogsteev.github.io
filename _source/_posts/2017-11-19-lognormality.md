@@ -44,11 +44,11 @@ I've continued the "math nerd" theme from time to time.
 * [SCUMDOG Entertainment][scumdog] - portfolio of book covers, 
   etc. that I've designed
 
-[log]:https://s.mylesandmyles.info/blog/
+[log]:https://stevemyles.site/blog/
 [mem]:https://steve.mylesandmyles.info/
 [myles]:https://www.mylesandmyles.info/
 [vid]:https://steve.mylesandmyles.info/tagged/my-videos/
-[main]:https://s.mylesandmyles.info/
+[main]:https://stevemyles.site/
 [stoch]:https://photos.scumdogentertainment.com/
 [lepto]:https://beer.scumdogentertainment.com/
 [scumdog]:https://www.scumdogentertainment.com
