@@ -6,23 +6,16 @@ layout: default
 		<br /><br /><br /><br /><br />
 		<div class="row">
             <div class="col-lg-12">
-				<h2><a style="color:#39383d;" href="{{ site.url }}blog/">Lognormality</a></h2>
+				<h3><a style="color:#39383d;" href="{{ site.url }}blog/">Lognormality</a> &gt; <a style="color:#39383d;" href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h3>
                 <hr class="star-primary">
-				<p align="center"><a href="{{ site.url }}blog/archive/">Archive</a></p>
-			</div>
-		</div>
-
-		<br /><br />
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>{{ page.title }}</h3>
-                    <hr class="star-primary">
                     <p align="center">
 						{{ page.date | date_to_long_string }} {% if page.comments %} | <a href="{{ site.url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{post.url}}" class="page-scroll"></a> | {% endif %}
 						categories: {% assign categories_list = page.categories | sort %}{% for category in categories_list %}<a href="{{ site.url}}blog/{{ category }}/">{{ category | replace: "-", " " }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
+						| <a href="{{ site.url }}blog/archive/">blog archive</a>
 					</p>
-                </div>
-                </div>
+			</div>
+		</div>
+
 			<div class="row">
                 <div class="col-lg-12">
 					<br />
