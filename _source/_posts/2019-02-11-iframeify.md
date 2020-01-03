@@ -5,6 +5,7 @@ date: 2019-02-11
 comments: true
 categories: 
   - rstats
+  - projects
 summary: Embedding (R)Markdown files hosted on <a href="https://pages.github.com/">GitHub pages</a> in <a href="https://tumblr.com/">tumblr</a> pages with iframes
 always_allow_html: yes
 output:

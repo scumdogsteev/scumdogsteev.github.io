@@ -5,8 +5,8 @@
     <description>Steve Myles, some guy from Texas</description>
     <link>https://stevemyles.site/blog/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Jan 2020 13:07:54 -0600</pubDate>
-    <lastBuildDate>Fri, 03 Jan 2020 13:07:54 -0600</lastBuildDate>
+    <pubDate>Fri, 03 Jan 2020 13:10:08 -0600</pubDate>
+    <lastBuildDate>Fri, 03 Jan 2020 13:10:08 -0600</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -30,6 +30,8 @@
         
         
         <category>rstats</category>
+        
+        <category>projects</category>
         
       </item>
     
