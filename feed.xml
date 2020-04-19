@@ -5,9 +5,21 @@
     <description>Steve Myles, some guy from Texas</description>
     <link>https://stevemyles.site/blog/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Jan 2020 13:10:08 -0600</pubDate>
-    <lastBuildDate>Fri, 03 Jan 2020 13:10:08 -0600</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2020 20:51:39 -0500</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2020 20:51:39 -0500</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Machine Learning&amp;colon;  From Data to Decisions</title>
+        <description></description>
+        <pubDate>Sat, 18 Apr 2020 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2020/04/18/machine-learning-from-data-to-decisions/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2020/04/18/machine-learning-from-data-to-decisions/</guid>
+        
+        
+        <category>school</category>
+        
+      </item>
     
       <item>
         <title>The Noodle Man</title>
@@ -129,22 +141,6 @@
         <pubDate>Mon, 07 Sep 2015 00:00:00 -0500</pubDate>
         <link>https://stevemyles.site//blog/2015/09/07/mlsjunkgen-011/</link>
         <guid isPermaLink="true">https://stevemyles.site//blog/2015/09/07/mlsjunkgen-011/</guid>
-        
-        
-        <category>rstats</category>
-        
-        <category>r-package</category>
-        
-        <category>software</category>
-        
-      </item>
-    
-      <item>
-        <title>phonenumber v.0.2.1 - phased plasma rifle in the 40-watt range</title>
-        <description></description>
-        <pubDate>Sat, 22 Aug 2015 00:00:00 -0500</pubDate>
-        <link>https://stevemyles.site//blog/2015/08/22/phonenumber-021/</link>
-        <guid isPermaLink="true">https://stevemyles.site//blog/2015/08/22/phonenumber-021/</guid>
         
         
         <category>rstats</category>
