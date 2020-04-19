@@ -15,7 +15,7 @@ summary: I recently completed the <a href="https://professional.mit.edu/">MIT Pr
 
 I recently completed the <a href="https://professional.mit.edu/">MIT Professional Education</a> course <a href="https://professional.mit.edu/course-catalog/machine-learning-data-decisions-english">Machine Learning:  From Data to Decisions</a>.
 
-This course provides an overview of machine learning and related concepts at the "mid-level" (not quite high-level, but not detailed and technical, either).
+This course provides an overview of machine learning and related concepts at the "mid-level" (not quite high-level, but not too technical, either).
 
 It was a good experience that got me thinking about my work in some new and interesting ways, and I'm looking forward to digging into some of the covered topics in more detail.
 
