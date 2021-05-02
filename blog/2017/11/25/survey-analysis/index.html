@@ -20,14 +20,16 @@
     <!-- Bing Verification -->
     
 
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-15892472-10', 'auto');
-		ga('send', 'pageview');
-	</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15892472-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15892472-10');
+</script>
+
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
@@ -689,9 +691,9 @@ the plot will contain all relevant data:</p>
 <p>These can be addressed easily:</p>
 
 <ol>
-  <li>Add <code class="highlighter-rouge">group.order = names(sat)</code> to the plot call</li>
-  <li>Add <code class="highlighter-rouge">centered = FALSE</code> to the plot call</li>
-  <li>Define <code class="highlighter-rouge">low.color</code>, <code class="highlighter-rouge">neutral.color</code>, and <code class="highlighter-rouge">high.color</code> as desired.</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">group.order = names(sat)</code> to the plot call</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">centered = FALSE</code> to the plot call</li>
+  <li>Define <code class="language-plaintext highlighter-rouge">low.color</code>, <code class="language-plaintext highlighter-rouge">neutral.color</code>, and <code class="language-plaintext highlighter-rouge">high.color</code> as desired.</li>
 </ol>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">## plot sat_likert with questions in original order, changing colors to red/yellow/green and making the range</span><span class="w">
@@ -722,8 +724,8 @@ straightforward.</p>
 
 <p><img src="https://stevemyles.site/img/2017-11-25-survey-analysis/plot-satisfaction-3-1.png" class="img-responsive" title="plot of chunk plot-satisfaction-3" alt="plot of chunk plot-satisfaction-3" style="display: block; margin: auto;" /></p>
 
-<p>(Note that the x positions of the labels were determined through trial and error and that <code class="highlighter-rouge">y = 50</code> is the 
-<em>horizontal</em> center of the plot; if this were a -100% to 100% plot, <code class="highlighter-rouge">y = 0</code> would center the annotation.)</p>
+<p>(Note that the x positions of the labels were determined through trial and error and that <code class="language-plaintext highlighter-rouge">y = 50</code> is the 
+<em>horizontal</em> center of the plot; if this were a -100% to 100% plot, <code class="language-plaintext highlighter-rouge">y = 0</code> would center the annotation.)</p>
 
 <p>This is very close to the desired plot.  The labels could stand out a little more, though, so I’ve added white
 boxes around them.  I’ve also added a centered title to the plot so XYZ Corp.’s management knows exactly
@@ -802,7 +804,7 @@ I’ve included both here.</p>
 </span><span class="n">rec_nps</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sapply</span><span class="p">(</span><span class="n">rec_num</span><span class="p">,</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="n">nps</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="o">!</span><span class="nf">is.na</span><span class="p">(</span><span class="n">x</span><span class="p">)]))</span><span class="w">
 </span></code></pre></div></div>
 
-<p>Here are the outputs of the <code class="highlighter-rouge">nps</code> function from the <a href="https://CRAN.R-project.org/package=NPS">NPS</a> 
+<p>Here are the outputs of the <code class="language-plaintext highlighter-rouge">nps</code> function from the <a href="https://CRAN.R-project.org/package=NPS">NPS</a> 
 package for XYZ’s recommendation questions:</p>
 
 <table class="table table-striped table-hover table-condensed table-responsive" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -1113,7 +1115,7 @@ Here’s one more plot, with the labels in their relative (NPS) positions.</p>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; 1994-2020 <a href="mailto:steve@mylesandmyles.info">Steve Myles</a>. <a href="/license/">Some rights reserved</a>.<br />
+                        Copyright &copy; 1994-2021 <a href="mailto:steve@mylesandmyles.info">Steve Myles</a>. <a href="/license/">Some rights reserved</a>.<br />
                     </div>
                 </div>
             </div>

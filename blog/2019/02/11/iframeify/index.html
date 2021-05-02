@@ -20,14 +20,16 @@
     <!-- Bing Verification -->
     
 
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-15892472-10', 'auto');
-		ga('send', 'pageview');
-	</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15892472-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15892472-10');
+</script>
+
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
@@ -150,7 +152,7 @@ Googling helped me with the basics and I figured out the appropriate size (650x5
 <p>That worked, but there were three issues:</p>
 
 <ol>
-  <li>the <code class="highlighter-rouge">title</code> of the output html file was “Future” (which makes sense as that’s the first word in the source markdown file, but it’s not what I wanted since <a href="https://stevemyles.site/iframeify/races.html">the file is viewable outside of the iframe</a>)</li>
+  <li>the <code class="language-plaintext highlighter-rouge">title</code> of the output html file was “Future” (which makes sense as that’s the first word in the source markdown file, but it’s not what I wanted since <a href="https://stevemyles.site/iframeify/races.html">the file is viewable outside of the iframe</a>)</li>
   <li>the style of the text in the iframe didn’t match the parent page</li>
   <li>clicking any of the links opened them in the iframe instead of in the parent window</li>
 </ol>
@@ -163,7 +165,7 @@ Googling helped me with the basics and I figured out the appropriate size (650x5
 <ol>
   <li>changes the title of the output page to the name of the source file (“races” in this case)</li>
   <li>updates the style to match this tumblr</li>
-  <li>adds <code class="highlighter-rouge">target="_parent"</code> to all <code class="highlighter-rouge">&lt;a href="xxxxxx"&gt;</code> tags to open links in the parent window</li>
+  <li>adds <code class="language-plaintext highlighter-rouge">target="_parent"</code> to all <code class="language-plaintext highlighter-rouge">&lt;a href="xxxxxx"&gt;</code> tags to open links in the parent window</li>
 </ol>
 
 <p>For #2, I copied/pasted the links to the tumblr theme’s CSS into <a href="https://github.com/scumdogsteev/iframeify/blob/master/styles.txt">styles.txt</a> and added some custom CSS for the table to <a href="https://github.com/scumdogsteev/iframeify/blob/master/styles.css">styles.css</a>. These could be adjusted if necessary to work with different themes.</p>
@@ -352,7 +354,7 @@ Googling helped me with the basics and I figured out the appropriate size (650x5
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; 1994-2020 <a href="mailto:steve@mylesandmyles.info">Steve Myles</a>. <a href="/license/">Some rights reserved</a>.<br />
+                        Copyright &copy; 1994-2021 <a href="mailto:steve@mylesandmyles.info">Steve Myles</a>. <a href="/license/">Some rights reserved</a>.<br />
                     </div>
                 </div>
             </div>
