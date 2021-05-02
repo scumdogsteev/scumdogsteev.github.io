@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve Myles</title>
+    <description>Steve Myles, some guy from Texas</description>
+    <link>https://stevemyles.site/blog/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 01 May 2021 20:11:03 -0500</pubDate>
+    <lastBuildDate>Sat, 01 May 2021 20:11:03 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>mlsjunkgen v.0.1.2 - Double T</title>
+        <description></description>
+        <pubDate>Sat, 01 May 2021 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2021/05/01/mlsjunkgen-012/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2021/05/01/mlsjunkgen-012/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>phonenumber v.0.2.3 - DN38416</title>
+        <description></description>
+        <pubDate>Mon, 19 Apr 2021 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2021/04/19/phonenumber-023/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2021/04/19/phonenumber-023/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Learning&amp;colon;  From Data to Decisions</title>
+        <description></description>
+        <pubDate>Sat, 18 Apr 2020 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2020/04/18/machine-learning-from-data-to-decisions/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2020/04/18/machine-learning-from-data-to-decisions/</guid>
+        
+        
+        <category>school</category>
+        
+      </item>
+    
+      <item>
+        <title>The Noodle Man</title>
+        <description></description>
+        <pubDate>Sun, 30 Jun 2019 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2019/06/30/noodle-man/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2019/06/30/noodle-man/</guid>
+        
+        
+        <category>other</category>
+        
+      </item>
+    
+      <item>
+        <title>iframeify</title>
+        <description></description>
+        <pubDate>Mon, 11 Feb 2019 00:00:00 -0600</pubDate>
+        <link>https://stevemyles.site//blog/2019/02/11/iframeify/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2019/02/11/iframeify/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Presenting Data and Information Seminar</title>
+        <description></description>
+        <pubDate>Sat, 03 Feb 2018 00:00:00 -0600</pubDate>
+        <link>https://stevemyles.site//blog/2018/02/03/presenting-data-and-information/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2018/02/03/presenting-data-and-information/</guid>
+        
+        
+        <category>visualization</category>
+        
+        <category>school</category>
+        
+      </item>
+    
+      <item>
+        <title>Survey Analysis in R with the Likert and NPS Packages</title>
+        <description></description>
+        <pubDate>Sat, 25 Nov 2017 00:00:00 -0600</pubDate>
+        <link>https://stevemyles.site//blog/2017/11/25/survey-analysis/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2017/11/25/survey-analysis/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>visualization</category>
+        
+      </item>
+    
+      <item>
+        <title>Lognormality (the blog)</title>
+        <description></description>
+        <pubDate>Sun, 19 Nov 2017 00:00:00 -0600</pubDate>
+        <link>https://stevemyles.site//blog/2017/11/19/lognormality/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2017/11/19/lognormality/</guid>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Breweries (and such), Visualized</title>
+        <description></description>
+        <pubDate>Sat, 24 Jun 2017 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2017/06/24/breweries-visualized/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2017/06/24/breweries-visualized/</guid>
+        
+        
+        <category>projects</category>
+        
+        <category>visualization</category>
+        
+      </item>
+    
+      <item>
+        <title>EOQ/EPQ Calculators</title>
+        <description></description>
+        <pubDate>Sun, 07 Feb 2016 00:00:00 -0600</pubDate>
+        <link>https://stevemyles.site//blog/2016/02/07/eoq-epq/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2016/02/07/eoq-epq/</guid>
+        
+        
+        <category>projects</category>
+        
+        <category>rstats</category>
+        
+        <category>inventory-control</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+  </channel>
+</rss>
