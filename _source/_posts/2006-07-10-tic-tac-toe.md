@@ -55,4 +55,4 @@ We got a 100 on this project, despite the “flaw,” in case you’re wondering
 
 -[ **download** ]-
 
-[ [releases](https://github.com/scumdogsteev/tic-tac-toe/releases) ] &#124; [ [all files](https://github.com/scumdogsteev/tic-tac-toe) ] &#124; [ [source](http://steve.mylesandmyles.info/projects/tictactoe/ttt.pas "ttt.pas") ] &#124; [ [binary](http://steve.mylesandmyles.info/projects/tictactoe/ttt.exe "ttt.exe") ] &#124; [ [source + binary (.zip)](http://steve.mylesandmyles.info/projects/tictactoe/ttt.zip "ttt.zip") ]
+[ [releases](https://github.com/scumdogsteev/tic-tac-toe/releases) ] &#124; [ [all files](https://github.com/scumdogsteev/tic-tac-toe) ] &#124; [ [source](https://github.com/scumdogsteev/tic-tac-toe/blob/master/ttt.pas "ttt.pas") ] &#124; [ [binary](https://github.com/scumdogsteev/tic-tac-toe/releases/download/v.0.5b/ttt.exe "ttt.exe") ] &#124; [ [source + binary (.zip)](https://github.com/scumdogsteev/tic-tac-toe/archive/refs/tags/v.0.5b.zip "ttt.zip") ]

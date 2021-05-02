@@ -25,7 +25,7 @@ I took a course in graduate school ("[Statistical Analysis for Digital Simulatio
 
 _[**Update 02/2015**]_ Now that [I'm learning R](https://stevemyles.site/blog/2015/01/22/data-science-specialization/), I decided to convert the generator to that language and clean-up and post the Excel/VBA versions I already had.
 
-_[**Update 08/2015**]_ This is now available as [an R package](https://stevemyles.site/mlsjunkgen/) ([CRAN](https://cran.r-project.org/web/packages/mlsjunkgen/index.html), [GitHub](https://github.com/scumdogsteev/mlsjunkgen)).
+_[**Update 08/2015**]_ This is now available as [an R package](https://stevemyles.site/mlsjunkgen/) ([CRAN](https://CRAN.R-project.org/package=mlsjunkgen), [GitHub](https://github.com/scumdogsteev/mlsjunkgen)).
 
 -[ **the mls junk generator** ]-
 
@@ -184,7 +184,12 @@ mlsjunkgenm(nrow = 5, ncol = 5, w = w, x = x, y = y, z = z, round = 3)
 #> [5,] 0.120 0.703 0.280 0.586 0.452
 ```
 
-Versions of mlsjunkgen will be named after things related to [Texas Tech University](http://ww.ttu.edu/).
+Versions of mlsjunkgen will be named after things related to [Texas Tech University](https://www.ttu.edu/).
+
+*   [v0.1.2 - Double T](https://github.com/scumdogsteev/mlsjunkgen/releases/tag/v0.1.2)
+
+    *   add rmarkdown as a dependency for vignette
+    *   update project URL
 
 *   [v0.1.1 - Masked Rider](https://github.com/scumdogsteev/mlsjunkgen/releases/tag/v0.1.1)
 
@@ -200,6 +205,10 @@ Versions of mlsjunkgen will be named after things related to [Texas Tech Univers
 *   All implementations are licensed under the [MIT License](https://github.com/scumdogsteev/mls-junk-generator/blob/master/LICENSE)
 
 -[ **project changelog** ]-
+
+2021-04-19
+
+*   v0.1.2 of R package (Double T) released, see above for package release notes
 
 2015-09-07
 

@@ -18,5 +18,5 @@ The first version (**[v0.1.0 - Raider Red](https://github.com/scumdogsteev/mlsju
 **Links**
 
 * [Project home](https://stevemyles.site/blog/2012/07/06/the-mls-junk-generator/) (further details on the package + other implementations)
-* [CRAN](https://cran.r-project.org/web/packages/mlsjunkgen/)
+* [CRAN](https://CRAN.R-project.org/package=mlsjunkgen)
 * [GitHub](https://github.com/scumdogsteev/mlsjunkgen)

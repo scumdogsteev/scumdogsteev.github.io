@@ -5,9 +5,41 @@
     <description>Steve Myles, some guy from Texas</description>
     <link>https://stevemyles.site/blog/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Apr 2021 19:34:06 -0500</pubDate>
-    <lastBuildDate>Fri, 02 Apr 2021 19:34:06 -0500</lastBuildDate>
-    <generator>Jekyll v3.9.0</generator>
+    <pubDate>Sat, 01 May 2021 20:11:03 -0500</pubDate>
+    <lastBuildDate>Sat, 01 May 2021 20:11:03 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>mlsjunkgen v.0.1.2 - Double T</title>
+        <description></description>
+        <pubDate>Sat, 01 May 2021 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2021/05/01/mlsjunkgen-012/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2021/05/01/mlsjunkgen-012/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+      <item>
+        <title>phonenumber v.0.2.3 - DN38416</title>
+        <description></description>
+        <pubDate>Mon, 19 Apr 2021 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2021/04/19/phonenumber-023/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2021/04/19/phonenumber-023/</guid>
+        
+        
+        <category>rstats</category>
+        
+        <category>r-package</category>
+        
+        <category>software</category>
+        
+      </item>
     
       <item>
         <title>Machine Learning&amp;colon;  From Data to Decisions</title>
@@ -114,38 +146,6 @@
         <category>rstats</category>
         
         <category>inventory-control</category>
-        
-        <category>software</category>
-        
-      </item>
-    
-      <item>
-        <title>phonenumber v.0.2.2 - machine phase matter</title>
-        <description></description>
-        <pubDate>Tue, 08 Sep 2015 00:00:00 -0500</pubDate>
-        <link>https://stevemyles.site//blog/2015/09/08/phonenumber-020/</link>
-        <guid isPermaLink="true">https://stevemyles.site//blog/2015/09/08/phonenumber-020/</guid>
-        
-        
-        <category>rstats</category>
-        
-        <category>r-package</category>
-        
-        <category>software</category>
-        
-      </item>
-    
-      <item>
-        <title>mlsjunkgen v.0.1.1 - Masked Rider</title>
-        <description></description>
-        <pubDate>Mon, 07 Sep 2015 00:00:00 -0500</pubDate>
-        <link>https://stevemyles.site//blog/2015/09/07/mlsjunkgen-011/</link>
-        <guid isPermaLink="true">https://stevemyles.site//blog/2015/09/07/mlsjunkgen-011/</guid>
-        
-        
-        <category>rstats</category>
-        
-        <category>r-package</category>
         
         <category>software</category>
         

@@ -133,7 +133,7 @@ For no particular reason, versions of phonenumber will be named after things fro
 -[ **download / install r package** ]-
 
 *   [phonenumber home](https://stevemyles.site/phonenumber/)
-*   [phonenumber on CRAN](http://cran.r-project.org/web/packages/phonenumber/index.html)
-*   [phonenumber vignette](http://cran.r-project.org/web/packages/phonenumber/vignettes/phonenumber.html)
+*   [phonenumber on CRAN](https://CRAN.R-project.org/package=phonenumber)
+*   [phonenumber vignette](https://cran.r-project.org/web/packages/phonenumber/vignettes/phonenumber.html)
 *   [phonenumber GitHub repository](https://github.com/scumdogsteev/phonenumber)
 *   [phonenumber on crantastic](http://crantastic.org/packages/phonenumber)

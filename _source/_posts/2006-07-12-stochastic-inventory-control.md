@@ -81,5 +81,5 @@ The source code and binaries for the solutions to these Phase II questions are l
 -[ **downloads** ]-
 
 * [ [releases](https://github.com/scumdogsteev/stochastic-inventory-control/releases) ] &#124; [ [all files](https://github.com/scumdogsteev/stochastic-inventory-control) ]
-* Phase II, Part A - [ [source](http://steve.mylesandmyles.info/projects/transition_jacobi/ex2ph2a.pas "ex2ph2a.pas") ] &#124; [ [source + binary (.zip)](http://steve.mylesandmyles.info/projects/transition_jacobi/ex2ph2a.zip "ex2ph2a.zip") ]
-* Phase II, Part B - [ [source](http://steve.mylesandmyles.info/projects/transition_jacobi/ex2ph2b.pas "ex2ph2b.pas") ] &#124; [ [source + binary (.zip)](http://steve.mylesandmyles.info/projects/transition_jacobi/ex2ph2b.zip "ex2ph2b.zip") ]
+* Phase II, Part A - [ [source](https://github.com/scumdogsteev/stochastic-inventory-control/blob/master/ex2ph2a.pas "ex2ph2a.pas") ] &#124; [ [source + binary (.zip)](https://github.com/scumdogsteev/stochastic-inventory-control/releases/download/v.0.1.0a/ex2ph2a.zip "ex2ph2a.zip") ]
+* Phase II, Part B - [ [source](https://github.com/scumdogsteev/stochastic-inventory-control/blob/master/ex2ph2b.pas "ex2ph2b.pas") ] &#124; [ [source + binary (.zip)](https://github.com/scumdogsteev/stochastic-inventory-control/releases/download/v.0.1.0a/ex2ph2b.zip "ex2ph2b.zip") ]

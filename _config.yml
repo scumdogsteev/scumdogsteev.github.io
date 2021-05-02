@@ -1,0 +1,60 @@
+# Site settings
+title: Steve Myles
+email: steve@mylesandmyles.info
+url: http://s.mylesandmyles.info/
+description: "Steve Myles, some guy from Texas"
+skills: "analytics and slow-speed distance running"
+meta_author: Steve Myles
+
+# Google webmaster tools
+google_verify: v249ifvo2RPEG6ai3LJgSAG7PRDntewxOW37aBgrhZY
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 3a88db
+  primary-rgb: "58,136,219"
+  secondary: 39383d
+  secondary-dark: 57565e
+
+# Footer settings
+footer:
+  copyright: <a href="mailto:steve@mylesandmyles.info">Steve Myles</a>
+  social: Me Elsewhere
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/stevenmyles
+  - title: tumblr
+    url: http://steve.mylesandmyles.info/
+  - title: github
+    url: http://github.com/scumdogsteev
+  - title: flickr
+    url: https://www.flickr.com/photos/scumdogsteev/
+  - title: instagram
+    url: https://www.instagram.com/scumdogsteev/
+  - title: youtube
+    url: https://www.youtube.com/user/scumdogsteev	
+  - title: soundcloud
+    url: https://soundcloud.com/scumdogsteev
+  - title: lastfm
+    url: http://www.last.fm/user/scumdogsteev  
+
+# Credits content
+credits: 'Theme = <a href="http://jekyllthemes.org/themes/freelancer/">Freelancer</a> by <a href="http://startbootstrap.com">Start Bootstrap</a>.  Hosting by <a href="https://pages.github.com/">GitHub Pages</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+relative_permalinks: false
+
+gems:
+  - jekyll-redirect-from
