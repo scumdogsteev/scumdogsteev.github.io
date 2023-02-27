@@ -5,9 +5,21 @@
     <description>Steve Myles, some guy from Texas</description>
     <link>https://stevemyles.site/blog/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 May 2021 13:23:28 -0500</pubDate>
-    <lastBuildDate>Sun, 09 May 2021 13:23:28 -0500</lastBuildDate>
+    <pubDate>Sun, 26 Feb 2023 18:17:34 -0600</pubDate>
+    <lastBuildDate>Sun, 26 Feb 2023 18:17:34 -0600</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Post Graduate Program in Data Science &amp; Business Analytics</title>
+        <description></description>
+        <pubDate>Sat, 15 Oct 2022 00:00:00 -0500</pubDate>
+        <link>https://stevemyles.site//blog/2022/10/15/pgp-dsba/</link>
+        <guid isPermaLink="true">https://stevemyles.site//blog/2022/10/15/pgp-dsba/</guid>
+        
+        
+        <category>school</category>
+        
+      </item>
     
       <item>
         <title>mlsjunkgen v.0.1.2 - Double T</title>
@@ -130,24 +142,6 @@
         <category>projects</category>
         
         <category>visualization</category>
-        
-      </item>
-    
-      <item>
-        <title>EOQ/EPQ Calculators</title>
-        <description></description>
-        <pubDate>Sun, 07 Feb 2016 00:00:00 -0600</pubDate>
-        <link>https://stevemyles.site//blog/2016/02/07/eoq-epq/</link>
-        <guid isPermaLink="true">https://stevemyles.site//blog/2016/02/07/eoq-epq/</guid>
-        
-        
-        <category>projects</category>
-        
-        <category>rstats</category>
-        
-        <category>inventory-control</category>
-        
-        <category>software</category>
         
       </item>
     
